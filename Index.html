@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width">
+ <title>Ativ. 12 - FOR</title>
+ <style type="text/css">
+ body{
+ font-family: Arial;
+ }
+ h3{
+ color: black;
+ font-weight: bolder;
+ font-size: 40px;
+ text-align: center;
+ }
+ p{
+ font-size: 20px;
+ font-weight: bold;
+ }
+ #inicio{
+ color: green;
+ }
+ #fim{
+ color: red;
+ }
+ #ass{
+ text-align: right;
+ }
+ </style>
+ </head>
+ <body>
+ <!--PROGRAMAÇÃO WEB
+ Aula 12 - Estrutura de Repetição (FOR)
+ Utilizando o REPLIT, execute o exemplo apresentado no vídeo. Print e envie a atividade.
+ Finaliza em 16/09/2021 às 23h59
+ https://www.youtube.com/watch?v=AIMe5UbpAok-->
+
+ <h3>Contagem Crescente</h3>
+ <p id="inicio">Início da contagem...</p>
+
+ <script type="text/javascript">
+ var numero;
+ numero = prompt("Digite qualquer número entre 10 e 100, por favor!");
+ if((numero<10) || (numero>100)){
+ alert("Valor indisponível... Por favor, insira outro valor!")
+ }
+ else{
+ for(contador=1; contador<=numero; contador++){
+ document.write(contador + "<br>")
+ }
+ }
+ </script>
+
+ <p id="fim">Fim da contagem...</p>
+ <p id="ass">Marcela Silva Batista 2ºB (INF)</p>
+ </body>
+</html>
