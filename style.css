@@ -1,0 +1,21 @@
+body{
+  font-family: Arial;
+}
+
+h3{
+  color: black;
+  font-weight: bolder;
+  font-size: 40px;
+  text-align: center;
+}
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#inicio{
+  color: green;
+}
+#fim{
+  color: red;
+}
